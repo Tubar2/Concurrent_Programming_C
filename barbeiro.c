@@ -44,7 +44,7 @@ void* f_cliente(void* v) {
     time_t rawtime;
     struct tm* timeinfo;
     struct tm buf;
-    char str[23];
+    char str[30];
 
     sleep((rand() % 20) + 5);  // Aguardar de 5 - 25 sec
 
